@@ -56,10 +56,10 @@ All tests should pass.
 
     node index.js
 
-This will launch the Node server on port 3000. If you have another server on this port, you can change the port in index.js, line 12.
+This will launch the Node server on port 3900. If that port is busy, you can set a different point in config/default.json.
 
 Open up your browser and head over to:
 
-http://localhost:3000/api/genres
+http://localhost:3900/api/genres
 
 You should see the list of genres. That confirms that you have set up everything successfully.
