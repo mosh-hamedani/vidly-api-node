@@ -1,4 +1,5 @@
 {
   "jwtPrivateKey": "",
-  "db": "mongodb://localhost/vidly"
+  "db": "mongodb://localhost/vidly",
+  "port": "3900"
 }
