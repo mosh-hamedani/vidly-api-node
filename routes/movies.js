@@ -2,6 +2,7 @@ const { Movie, validate } = require("../models/movie");
 const { Genre } = require("../models/genre");
 const auth = require("../middleware/auth");
 const admin = require("../middleware/admin");
+const validateObjectId = require("../middleware/validateObjectId");
 const moment = require("moment");
 const mongoose = require("mongoose");
 const express = require("express");
@@ -72,7 +73,7 @@ router.delete("/:id", [auth, admin], async (req, res) => {
   res.send(movie);
 });
 
-router.get("/:id", async (req, res) => {
+router.get("/:id", validateObjectId, async (req, res) => {
   const movie = await Movie.findById(req.params.id).select("-__v");
 
   if (!movie)
