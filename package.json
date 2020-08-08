@@ -23,8 +23,8 @@
     "lodash": "^4.17.15",
     "moment": "^2.27.0",
     "mongoose": "^5.9.20",
-    "winston": "^2.4.0",
-    "winston-mongodb": "^3.0.0"
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.1"
   },
   "devDependencies": {
     "jest": "^26.1.2",
