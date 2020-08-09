@@ -1,4 +1,5 @@
 {
   "jwtPrivateKey": "1234",
-  "db": "mongodb://localhost/vidly_tests"
+  "db": "mongodb://localhost/vidly_tests",
+  "requiresAuth": true
 }
