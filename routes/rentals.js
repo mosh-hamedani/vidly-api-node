@@ -33,7 +33,8 @@ router.post("/", auth, async (req, res) => {
     customer: {
       _id: customer._id,
       name: customer.name,
-      phone: customer.phone
+      phone: customer.phone,
+      isGold:customer.isGold
     },
     movie: {
       _id: movie._id,
