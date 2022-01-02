@@ -1,4 +1,4 @@
 {
   "jwtPrivateKey": "1234",
-  "db": "mongodb://localhost/movieshub"
+  "db": "mongodb://localhost/movieshub_tests"
 }

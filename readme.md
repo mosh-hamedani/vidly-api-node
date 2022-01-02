@@ -1,12 +1,12 @@
 ## Introduction
 
-This project is the backend of MoviesHub, an imaginary video rental app. I've used MoviesHub as an example in several of my online programming courses, such as:
+This project is the backend of movieshub, an imaginary video rental app. I've used movieshub as an example in several of my online programming courses, such as:
 
 - https://codewithmosh.com/p/mastering-react
 - https://codewithmosh.com/p/the-complete-node-js-course
 - https://codewithmosh.com/p/asp-net-mvc
 
-This is the implementation of MoviesHub in Node.js.
+This is the implementation of movieshub in Node.js.
 
 ## Setup
 
@@ -56,8 +56,18 @@ If you look at config/default.json, you'll see a property called jwtPrivateKey. 
 
 On Mac:
 
-    export MoviesHub_jwtPrivateKey=yourSecureKey
+<<<<<<< Updated upstream
+export MoviesHub_jwtPrivateKey=yourSecureKey
 
 On Windows:
 
     set MoviesHub_jwtPrivateKey=yourSecureKey
+
+=======
+export movieshub_jwtPrivateKey=yourSecureKey
+
+On Windows:
+
+    set movieshub_jwtPrivateKey=yourSecureKey
+
+> > > > > > > Stashed changes
