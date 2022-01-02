@@ -1,6 +1,6 @@
 {
   "jwtPrivateKey": "unsecureKey",
-  "db": "mongodb://localhost/vidly",
+  "db": "mongodb://localhost/movieshub",
   "port": "3900",
   "requiresAuth": true
 }
